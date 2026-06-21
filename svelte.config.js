@@ -15,10 +15,7 @@ const config = {
 		},
 
 		typescript: {
-			config: (config) => ({
-				...config,
-				include: [...config.include, '../drizzle.config.ts']
-			})
+			config: (config) => config
 		}
 	}
 };
